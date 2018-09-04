@@ -1,0 +1,5 @@
+1. вывод конкретной переменной
+{$values|@debug_print_var}
+2. вывод всех переменных
+{debug}
+{{$models_list|@print_r}}

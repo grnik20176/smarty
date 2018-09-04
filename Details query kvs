@@ -1,0 +1,2 @@
+{{query_kvs select="count" table="`$config.tables_prefix`models" wherelike_title='[a-zA-Z]%' assign="models_count" }}
+				{{$models_count|@print_r}}
